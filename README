@@ -1,0 +1,56 @@
+#Test FIBONACCI
+#Creado por Leonidas Alagon P. email: leonidas.alagon@gmail.com
+#Fecha: 07/02/2018
+#Alcance:
+ Web service de ejemplo para el calculo del elemento N y N-1 de la sucesión fibonacci
+ Endpoint: http://localhost:8081/fibonacci?wsdl
+
+#Requerimientos:
+   Java 1.7+
+
+#Directory /fibonacci#####
+  bin
+  dist: jar file web service
+  src: Codigo fuente
+#Directory /testFibonacci####
+  bin
+  dist: jar file web service test
+  src: codigo fuente
+
+#EXAMPLE RUN TEST###
+$ cd fibonacci/dist
+$ java -jar fibonaci-service.jar
+
+Starting service
+Started service
+
+$ cd testFibonacci/dist
+$ java -jar fibonaci-test.jar
+
+Input element number of fibonacci succession: 
+10
+Solution: (n -1, n) = (34, 55)
+Input element number of fibonacci succession: 
+11
+Solution: (n -1, n) = (55, 89)
+Input element number of fibonacci succession: 
+2
+Solution: (n -1, n) = (1, 1)
+Input element number of fibonacci succession: 
+1
+Solution: (n -1, n) = (0, 1)
+Input element number of fibonacci succession: 
+0
+Solution: (n -1, n) = (0, 1)
+Input element number of fibonacci succession: 
+5
+Solution: (n -1, n) = (3, 5)
+Input element number of fibonacci succession: 
+8
+Solution: (n -1, n) = (13, 21)
+Input element number of fibonacci succession: 
+6
+Solution: (n -1, n) = (5, 8)
+Input element number of fibonacci succession: 
+
+
